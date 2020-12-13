@@ -20,6 +20,7 @@ import altair as alt
 
 # Load NLK Utils
 import nltk_utils
+import textblob.download_corpora 
 
 
 
