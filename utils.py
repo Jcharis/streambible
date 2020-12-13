@@ -18,6 +18,9 @@ import matplotlib
 matplotlib.use('Agg')
 import altair as alt 
 
+# Load NLK Utils
+import nltk_utils
+
 
 
 HTML_RANDOM_TEMPLATE = """
