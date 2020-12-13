@@ -1,6 +1,8 @@
 # streambible
 Simple Bible App with Streamlit &amp; Text Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/jcharis/streambible/main/app.py)
+
 
 #### Aim
 + Build a simple app with streamlit for Bible Studies
@@ -13,3 +15,10 @@ Simple Bible App with Streamlit &amp; Text Analysis
 
 #### Pkgs Installation
 + pip3 install streamlit pandas spacy textblob neattext nltk altair matplotlib
+
+
+#### Note:For Spacy Model
+```
+spacy>=2.2.0,<3.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+```
