@@ -18,6 +18,8 @@ import matplotlib
 matplotlib.use('Agg')
 import altair as alt 
 
+import nltk_utils
+
 
 
 
