@@ -7,7 +7,7 @@ import pandas as pd
 # NLP Pkgs
 import spacy
 from spacy import displacy
-nlp = spacy.load('en_core_web_sm') # Fixes Error For Deployment for shortlink
+nlp = spacy.load('en')
 from textblob import TextBlob
 from collections import Counter
 
@@ -18,9 +18,7 @@ import matplotlib
 matplotlib.use('Agg')
 import altair as alt 
 
-# Load NLK Utils
-import nltk_utils
-import textblob.download_corpora 
+
 
 
 
